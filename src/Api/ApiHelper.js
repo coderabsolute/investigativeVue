@@ -2,7 +2,6 @@ import axios from 'axios'
 
 export default {
   getBaseUrl: function (resource) {
-    // const baseUrl = 'http://52.66.153.149:5000/api/' + resource
     const baseUrl = 'http://localhost:5000/api/' + resource
 
     return baseUrl
